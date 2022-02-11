@@ -13,6 +13,7 @@ for file in $PWD/*; do
             mv $file $PWD/$current 
         fi
     fi
+
     
 done
 
