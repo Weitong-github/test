@@ -12,9 +12,7 @@ for file in $PWD/*; do
             mkdir $current
             mv $file $PWD/$current 
         fi
-    fi
-
-    
+    fi    
 done
 
 
