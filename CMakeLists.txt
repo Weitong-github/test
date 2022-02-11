@@ -2,10 +2,8 @@ cmake_minimum_required(VERSION 3.0)
 
 project(solider)
 
-include_directories(./include)
+# include_directories(./include)
 
-add_executable(solider 
+add_executable(main 
         main.cpp 
-        src/solider.cpp 
-        src/gun.cpp
 )

@@ -1,8 +1,7 @@
 #include <iostream>
-#include "solider.h"
+using namespace std;
 
 int main() {
-    solider p1("Mike","M416", 30, 100);
-    p1.soliderInfo();
+    cout<<"finish"<<endl;
     return 0;
 }
