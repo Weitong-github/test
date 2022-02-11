@@ -11,9 +11,7 @@ for file in $PWD/*; do
             echo $current
             mkdir $current
             mv $file $PWD/$current 
-        fi
-
-        
+        fi  
     fi    
 done
 
