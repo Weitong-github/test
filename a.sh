@@ -10,8 +10,6 @@ for file in $PWD/*; do
             current=`date "+%Y-%m-%d:%H:%M:%S"`
             echo $current
             mkdir $current
-            
-            
             mv $file $PWD/$current 
         fi
     fi
