@@ -3,9 +3,10 @@ cd build
 touch test.log
 # cmake ..
 # make
+time=`date "+%Y-%m-%d:%H:%M:%S"`
+echo $time
 cmake .. >test.log 2>&1
 make >test.log 2>&1
-echo "here"
 # for file in $PWD/*; do
 #     if test -f $file
 #     then
