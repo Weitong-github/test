@@ -6,6 +6,7 @@ touch test.log
 time=`date "+%Y-%m-%d:%H:%M:%S"`
 echo $time
 cmake .. >test.log 2>&1
+
 make >test.log 2>&1
 # for file in $PWD/*; do
 #     if test -f $file
